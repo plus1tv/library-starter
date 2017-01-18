@@ -1,0 +1,24 @@
+{
+  "presets": [
+    "es2015-rollup"
+  ],
+  "plugins": [],
+  "env": {
+    "development": {
+      "presets": [],
+      "plugins": []
+    },
+    "production": {
+      "presets": [
+        "babili"
+      ],
+      "plugins": []
+    },
+    "test": {
+      "presets": [],
+      "plugins": [
+        "babel-plugin-transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}
